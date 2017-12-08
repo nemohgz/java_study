@@ -8,5 +8,9 @@ package com.hgz.study;
  * @Motifiedy by:
  */
 public class Main {
+    public static void main(String[] args) {
+        IOTest ioTest = new IOTest();
+        ioTest.test();
+    }
 
 }
