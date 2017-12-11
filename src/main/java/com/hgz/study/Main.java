@@ -11,6 +11,8 @@ public class Main {
     public static void main(String[] args) {
         IOTest ioTest = new IOTest();
         ioTest.test();
+        StringTest stringTest = new StringTest();
+        stringTest.test();
     }
 
 }
