@@ -9,12 +9,14 @@ package com.hgz.study;
  */
 public class Main {
     public static void main(String[] args) {
-       /* IOTest ioTest = new IOTest();
+        IOTest ioTest = new IOTest();
         ioTest.test();
         StringTest stringTest = new StringTest();
-        stringTest.test();*/
+        stringTest.test();
         ArrayTest arrayTest = new ArrayTest();
         arrayTest.test();
+        CollectionTest collectionTest = new CollectionTest();
+        collectionTest.test();
     }
 
 }
