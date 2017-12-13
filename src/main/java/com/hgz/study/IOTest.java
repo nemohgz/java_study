@@ -26,6 +26,7 @@ public class IOTest {
         b = 0;
     }
     public void test() {
+        System.out.println("*******************IO Testing*******************");
         consoleIOTest();
         fileIOTest();
         netIOTest();

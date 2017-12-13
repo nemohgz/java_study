@@ -25,6 +25,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 public class CollectionTest {
     public CollectionTest(){}
     public void test() {
+        System.out.println("*******************Collection Testing*******************");
         listTest();
         setTest();
         queueTest();

@@ -1,6 +1,5 @@
 package com.hgz.study;
 
-import com.sun.deploy.util.ArrayUtil;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,6 +14,7 @@ import java.util.Arrays;
 public class ArrayTest {
     public ArrayTest(){}
     public void test() {
+        System.out.println("*******************Array Testing*******************");
         arrayTest();
         arrayListTest();
     }

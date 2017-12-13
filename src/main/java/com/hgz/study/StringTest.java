@@ -13,6 +13,7 @@ import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 public class StringTest {
     public StringTest(){}
     public void test() {
+        System.out.println("*******************String Testing*******************");
         constructTest();
         modifiedTest();
         stringBufferTest();

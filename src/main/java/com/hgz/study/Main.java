@@ -17,6 +17,8 @@ public class Main {
         arrayTest.test();
         CollectionTest collectionTest = new CollectionTest();
         collectionTest.test();
+        InterfaceTest interfaceTest = new InterfaceTest();
+        interfaceTest.test();
     }
 
 }

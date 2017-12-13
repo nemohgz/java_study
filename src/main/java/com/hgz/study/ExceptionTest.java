@@ -8,4 +8,5 @@ package com.hgz.study;
  * @Motifiedy by:
  */
 public class ExceptionTest {
+
 }
