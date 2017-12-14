@@ -23,6 +23,8 @@ public class Main {
         exceptionTest.test();
         ThreadTest threadTest = new ThreadTest();
         threadTest.test();
+        EventTest eventTest = new EventTest();
+        eventTest.test();
     }
 
 }
