@@ -1,5 +1,7 @@
 package com.hgz.study;
 
+import static java.lang.Thread.currentThread;
+
 /**
  * @Author: HGZ
  * @Date: 2017-12-07
@@ -49,6 +51,7 @@ public class ThreadTest {
     }
     public void test() {
         System.out.println("*******************Thread Testing*******************");
+        System.out.println(currentThread().toString());
         TestThread1 th1 = new TestThread1("thread1");
         th1.start();
         TestThread2 th2 = new TestThread2("thread2");
