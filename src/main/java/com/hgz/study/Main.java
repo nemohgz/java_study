@@ -21,6 +21,8 @@ public class Main {
         interfaceTest.test();
         ExceptionTest exceptionTest = new ExceptionTest();
         exceptionTest.test();
+        ThreadTest threadTest = new ThreadTest();
+        threadTest.test();
     }
 
 }
