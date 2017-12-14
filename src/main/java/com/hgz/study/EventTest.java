@@ -6,6 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.util.Random;
 
 
 /**
@@ -18,14 +19,19 @@ import java.awt.event.WindowEvent;
 public class EventTest{
     private Frame f;
     private Button bt;
+    private Random colorRandom;
     public EventTest() {
+        colorRandom = new Random();
         f = new Frame("EventTest");
         bt = new Button("change color");
         bt.addActionListener(
                 new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
-                        bt.setBackground(Color.RED);
+                        int r = colorRandom.nextInt(255);
+                        int g = colorRandom.nextInt(255);
+                        int b = colorRandom.nextInt(255);
+                        bt.setBackground(new Color(r, g, b));
                     }
                 }
         );
