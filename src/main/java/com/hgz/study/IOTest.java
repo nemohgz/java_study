@@ -92,7 +92,6 @@ public class IOTest {
             FileOutputStream wrf = new FileOutputStream(fl);
             String filecontent = "FileInput/OutputStream write and read test successfully";
             wrf.write(filecontent.getBytes() ,0 ,filecontent.getBytes().length);
-
             wrf.close();
         } catch (IOException e) {
             System.out.println(e.toString());

@@ -9,7 +9,7 @@ import java.util.Arrays;
  * @Date: 2017-12-07
  * @Time: 14:58
  * @Description:
- * @Motifiedy by:
+ * @Modified by:
  */
 public class ArrayTest {
     public ArrayTest(){}

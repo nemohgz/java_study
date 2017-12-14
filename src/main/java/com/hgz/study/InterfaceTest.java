@@ -8,7 +8,7 @@ import java.util.Iterator;
  * @Date: 2017-12-07
  * @Time: 15:01
  * @Description:
- * @Motifiedy by:
+ * @Modified by:
  */
 interface  RvIter<E> extends  Iterator<E>,Iterable<E>{
     void setCurrentData(E e);

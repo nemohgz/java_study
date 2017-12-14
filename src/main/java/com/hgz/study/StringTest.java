@@ -8,7 +8,7 @@ import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
  * @Date: 2017-12-07
  * @Time: 14:57
  * @Description:
- * @Motifiedy by:
+ * @Modified by:
  */
 public class StringTest {
     public StringTest(){}

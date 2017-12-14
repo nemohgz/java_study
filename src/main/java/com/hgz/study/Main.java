@@ -19,6 +19,8 @@ public class Main {
         collectionTest.test();
         InterfaceTest interfaceTest = new InterfaceTest();
         interfaceTest.test();
+        ExceptionTest exceptionTest = new ExceptionTest();
+        exceptionTest.test();
     }
 
 }

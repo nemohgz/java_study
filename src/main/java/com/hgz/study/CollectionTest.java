@@ -20,7 +20,7 @@ import java.util.concurrent.LinkedBlockingQueue;
  * @Date: 2017-12-12
  * @Time: 14:41
  * @Description:
- * @Motifiedy by:
+ * @Modified by:
  */
 public class CollectionTest {
     public CollectionTest(){}
