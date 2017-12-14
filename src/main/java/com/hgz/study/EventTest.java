@@ -90,9 +90,11 @@ public class EventTest{
         f.setFocusable(true);
         f.setVisible(true);
     }
+    public  static boolean  operateSystemSupported() {
+        return System.getProperties().getProperty("os.name").toLowerCase().contains("windows");
+    }
     public static void main(String[] args) {
-        System.out.println(
-                System.getProperties().getProperty("os.name").toLowerCase().contains("windows"));
+
         EventTest eventTest = new EventTest();
         eventTest.test();
     }
