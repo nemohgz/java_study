@@ -86,4 +86,9 @@ public class StringTest {
                 + (afterTestTime - beforeTestTime) + "ms");
 
     }
+
+    public static void main(String[] args) {
+        StringTest stringTest = new StringTest();
+        stringTest.test();
+    }
 }

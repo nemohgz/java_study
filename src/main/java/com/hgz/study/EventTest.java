@@ -78,10 +78,6 @@ public class EventTest{
         );
     }
     public void test() {
-        if (System.getProperties().getProperty("os.name").toLowerCase().contains("windows") == false) {
-            System.out.println("Linux System skip EventTest");
-            return;
-        }
         f.setLayout(null);
         bt.setBounds(190,75,80,25);
         f.add(bt, BorderLayout.EAST);
@@ -94,7 +90,6 @@ public class EventTest{
         return System.getProperties().getProperty("os.name").toLowerCase().contains("windows");
     }
     public static void main(String[] args) {
-
         EventTest eventTest = new EventTest();
         eventTest.test();
     }

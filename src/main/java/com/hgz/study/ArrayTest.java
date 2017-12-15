@@ -39,4 +39,9 @@ public class ArrayTest {
             System.out.println(e);
         }
     }
+
+    public static void main(String[] args) {
+        ArrayTest arrayTest = new ArrayTest();
+        arrayTest.test();
+    }
 }

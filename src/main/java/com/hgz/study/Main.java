@@ -26,7 +26,10 @@ public class Main {
         if (EventTest.operateSystemSupported()) {
             EventTest eventTest = new EventTest();
             eventTest.test();
+        } else {
+            System.out.println("Linux System skip EventTest");
         }
+        AlgorithmTest algorithmTest = new AlgorithmTest();
+        algorithmTest.test();
     }
-
 }

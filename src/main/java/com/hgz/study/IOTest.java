@@ -145,4 +145,9 @@ public class IOTest {
     private void netIOTest() {
 
     }
+
+    public static void main(String[] args) {
+        IOTest ioTest = new IOTest();
+        ioTest.test();
+    }
 }
