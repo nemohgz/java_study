@@ -31,5 +31,7 @@ public class Main {
         }
         AlgorithmTest algorithmTest = new AlgorithmTest();
         algorithmTest.test();
+        ReflectTest reflectTest = new ReflectTest();
+        reflectTest.test();
     }
 }
